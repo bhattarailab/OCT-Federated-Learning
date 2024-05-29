@@ -1,0 +1,31 @@
+# training configs
+epochs: 100
+num_users: 10
+frac: 0.5
+local_ep: 3
+local_bs: 64
+lr: 0.01
+schedule: [162, 244]
+lr_decay: 0.001
+momentum: 0.0
+reg: 0.0001
+optimizer: sgd
+
+# model configs
+weights: IMAGENET1K_V1 
+model: resnet18
+pretrained: True
+
+# fedprox
+fedprox: False
+mu: 0.0
+
+
+# utils
+training_method: fedavg  
+iid: 
+gpu: 0
+shards_per_client: 3
+unequal: 
+alpha: 
+seed: [1, 2, 3, 4, 5]

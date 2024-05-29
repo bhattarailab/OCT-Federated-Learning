@@ -1,0 +1,17 @@
+save/
+OCT2017 /
+test/
+train/
+val/
+.env/
+data/
+__pycache__/
+archive/
+.ipynb_checkpoints/
+save_data_leak/
+*.zip
+notebooks/
+*.ipynb
+*.sh
+*.svg
+*.png
